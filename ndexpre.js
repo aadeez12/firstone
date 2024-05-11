@@ -65,3 +65,9 @@ console.log(ad);
 //random method
 const d=((Math.random()*100).toFixed(2));
 console.log(d);
+
+
+
+
+//rendom method
+const d=Math.random()*100;
