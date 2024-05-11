@@ -1,0 +1,26 @@
+
+{"name":"vix","email":"vix@gmail.com","number":"123456789","city":"ahamdabad"}
+{"name":"vix","email":"vix@gmail.com","number":"123456789","city":"ahamdabad"}
+{"name":"ac","email":"ja@gmail.com","number":"23456","city":"ahamdabad"}
+{"name":"abd","email":"abd@gmail.com","number":"99923456","city":"kalol"}
+{"name":"kle","email":"klr@gmail.com","number":"99923456","city":"ahamdabad"}
+{"name":"visal","email":"visali@gmail.com","number":"8765432","city":"surat"}
+{"name":"visal","email":"visali@gmail.com","number":"8765432","city":"surat"}
+{"name":"a","email":"a@gmail.com","number":"456","city":"ahamdabad"}
+{"name":"asdfg","email":"gh@gmail.com","number":"3456","city":"surat"}
+{"name":"asdfg","email":"gh@gmail.com","number":"3456","city":"surat"}
+{"name":"qwert","email":"sdfghj@gmail.com","number":"56789","city":"ahamdabad"}
+{"name":"qwert","email":"sdfghj@gmail.com","number":"56789","city":"ahamdabad"}
+{"name":"ertyu","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{"name":"ertyu","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{"name":"raju","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{"name":"raju","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{"name":"raju","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{"name":"raju","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{"name":"raju","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{"name":"raju","email":"sdf@gmail.com","number":"45678","city":"ahamdabad"}
+{}
+{}
+{"name":"NARSAJI PARKHAJI PRAJAPATI","email":"jkishu786@gmail.com","number":"233333333333","city":"ahamdabad"}
+{"name":"ravi","email":"rv@gmail.com","number":"56789","city":"ahamdabad"}
+{"name":"ss","email":"aa@12","password":"1234","confirm-password":"1234","age":"21","gender":"male","hobbies":["movies"],"bio":"f"}

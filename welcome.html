@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      text-align: center;
+    }
+
+    .car {
+      position: relative;
+      animation: moveCar 5s infinite alternate;
+    }
+
+    @keyframes moveCar {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: 700px;
+      }
+    }
+
+    .car img {
+      width: 200px;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+    }
+
+    .wheels {
+      animation: rotateWheels 1s infinite linear;
+    }
+
+    @keyframes rotateWheels {
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="car">
+      <img src="https://via.placeholder.com/200" alt="Car">
+      <div class="wheels">
+        <img src="https://via.placeholder.com/50" alt="Wheel" style="position: absolute; top: 50px; left: 25px;">
+        <img src="https://via.placeholder.com/50" alt="Wheel" style="position: absolute; top: 50px; right: 25px;">
+        <img src="https://via.placeholder.com/50" alt="Wheel" style="position: absolute; bottom: 50px; left: 25px;">
+        <img src="https://via.placeholder.com/50" alt="Wheel" style="position: absolute; bottom: 50px; right: 25px;">
+      </div>
+    </div>
+    <h1>Welcome to our Car Homepage</h1>
+    <p>Explore our latest models and offers!</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Resume</title>
+<style>body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.forest-background {
+    background-image: url('forest.jpg'); /* Replace 'forest.jpg' with your forest background image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    margin-top: 20px;
+}
+
+section h2 {
+    font-size: 30px;
+}
+
+/* Example animation */
+section {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}</style>
+</head>
+<body>
+    <div class="forest-background">
+        <header>
+            <h1>Kishor</h1>
+            <p>Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum lectus sed felis porta ultricies.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum lectus sed felis porta ultricies.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum lectus sed felis porta ultricies.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: Kishor.doe@example.com<br>Phone: +1234567890</p>
+        </section>
+    </div>
+</body>
+</html>

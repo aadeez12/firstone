@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #result {
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <label>Enter Name: </label>
+    <input type="text" id="find" name="find"><br><br>
+    <input type="button" value="Find" onclick="find()">
+    <div id="result"></div>
+
+    <script>
+        function find() {
+            const get = document.getElementById("find").value;
+            let msg = "";
+            const arr = [
+                { name: "saran", age: 20},
+                { name: "jenish", age: 21},
+                { name: "jay", age: 18},
+                { name: "ram", age: 17},
+            ];
+
+            let obj = arr.filter(x => x.name == get);
+            console.log(obj);
+            if (obj.length > 0) {
+    console.log(obj);
+    msg = "Welcome " + obj[0].name + " your age is " + obj[0].age;
+} else {
+    msg = "User not found: " + get;
+}
+
+
+
+
+
+document.getElementById("result").innerHTML = msg;
+
+            // for (let i = 0; i < arr.length; i++) {
+            //     if (get === arr[i].name) {
+            //         document.getElementById("result").innerHTML = arr[i].name + " is " + arr[i].age + " year old";
+            //         return;
+            //     }
+            //  document.getElementById("result").innerHTML = "User not found"
+            // }
+
+        }
+    </script>
+</body>
+</html>

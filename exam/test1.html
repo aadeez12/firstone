@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="8"></p> 
+<p id="11"></p>
+<p id="12"></p>  
+<p id="17"></p>
+<p id="18"></p>
+<p id="19"></p>
+<p id="20"></p>
+<p id="21"></p>
+<p id="rrr21"></p>
+<p id="22"></p>
+<p id="23"></p>
+<p id="24"></p>
+<p id="25"></p>   
+<p id="26"></p>
+<p id="27"></p>
+<p id="28"></p>
+<p id="29"></p>
+<p id="30"></p>
+<p id="31"></p>
+<p id="32"></p>
+<p id="33"></p>
+<p id="34"></p>
+<p id="35"></p>
+<p id="36"></p>
+<p id="37"></p>
+
+<script>
+
+//8
+
+let n8 = "12345";
+
+n8 = Number(n8);
+
+n8 = n8.toString();
+
+document.getElementById("8").innerHTML = n8;
+
+//11
+
+let n11=[85, 92, 78, 95, 88]
+
+
+
+document.getElementById("11").innerHTML=n11;
+
+//12
+scores=[85, 92, 78, 95, 88]
+
+scores[scores.length]=90;
+document.getElementById("12").innerHTML=scores;
+
+//17
+
+
+let n17 = [1, 2, 3, 4, 5];
+
+n17.pop();
+
+n17.push(6);
+
+document.getElementById("17").innerHTML = n17;
+
+//18
+
+
+let n18 = [1, 2, 3];
+n18.push(4);
+
+document.getElementById("18").innerHTML = n18;
+//19
+let n19 = [1, 2, 3, 4, 5];
+
+n19.shift();
+
+document.getElementById("19").innerHTML = n19;
+
+
+
+//20
+let arr = [2, 3, 4];
+
+
+
+arr.unshift(1);
+
+
+
+
+document.getElementById("20").innerHTML = arr;
+
+
+
+//21
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+const r21=arr1.concat(arr2);
+
+const rr21=[...arr1,...arr2]
+
+
+
+
+document.getElementById("21").innerHTML = r21;
+document.getElementById("rrr21").innerHTML= rr21;
+//22
+let tasks = ["Task 1", "Task 2", "Task 3", "Task 4", "Task 5"];
+const r22=tasks.slice(3,5)
+
+document.getElementById("22").innerHTML = r22;
+
+
+
+
+//23
+const n23=[1,2,3,4]
+
+n23.splice(1,2)
+
+document.getElementById("24").innerHTML = n23;
+
+//24
+const n24=[1,2,3,4]
+
+
+const r24=n24.filter(function(value, index, arr){
+    return value != 2 && value != 4;
+});
+
+document.getElementById("23").innerHTML = r24;
+
+
+
+
+//25
+let n25= ["red", "green", "blue", "yellow"];
+
+
+
+let r25 = n25.filter(function(value, index, arr){
+    return value != "green";
+});
+
+
+
+document.getElementById("25").innerHTML = r25;
+
+
+
+//26
+let fruits = ["apple", "orange", "grape"];
+
+fruits.splice(1, 0, "banana");
+
+document.getElementById("26").innerHTML = fruits;
+
+//27
+let n27 = [1, 2, 3, 4, 5];
+
+n27.splice(1, 2, 5, 6);
+document.getElementById("27").innerHTML = n27;
+//28
+let n26 = [1, 2, 3, 4, 5];
+
+let r26 = n26.slice(0, 3);
+
+document.getElementById("28").innerHTML = r26;
+
+
+
+
+
+
+
+//29
+let n29 = ["a", "b", "c", "d", "e"];
+
+let r29 = n29.slice(1);
+
+document.getElementById("29").innerHTML = r29;
+
+
+
+//30
+
+let n30 = [1, 2, 3, 4, 5];
+
+
+let r30 = n30.map(function(number) {
+  return number * 2;
+});
+
+document.getElementById("30").innerHTML = r30;
+
+
+//31
+let n31 = ["apple", "banana", "orange", "kiwi"];
+
+
+let r31 = n31.map(function(word) {
+  return word.length;
+});
+
+document.getElementById("31").innerHTML = r31;
+
+
+
+
+
+//32
+let n32 = ["red", "green", "blue"];
+
+let r32 = n32.map(function(color) {
+  return "color:" + color;
+});
+
+
+
+
+document.getElementById("32").innerHTML = r32;
+
+
+
+//33
+let n33 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+let r33 = n33.filter(function(number) {
+  return number % 2 === 0;
+});
+
+
+
+document.getElementById("33").innerHTML = r33;
+
+
+//34
+let students = [
+  { name: "Alice", age: 22 },
+  { name: "Bob", age: 18 },
+  { name: "Charlie", age: 25 }
+];
+
+let r34 = students.filter(function(student) {
+  return student.age > 20;
+});
+
+
+document.getElementById("34").innerHTML = r34;
+
+
+
+
+//35
+let words = ["apple", "banana", "orange", "kiwi", "strawberry"];
+let r35 = words.filter(function(word) {
+  return word.length > 5;
+});
+document.getElementById("35").innerHTML = r35;
+
+//36
+
+let n36 = [-3, -2, -1, 0, 1, 2, 3];
+
+let r36 = n36.filter(function(number) {
+  return number > 0;
+});
+
+
+
+
+document.getElementById("36").innerHTML = r36;
+
+//37
+
+let numbers = [1, 2, 3, 4, 5];
+let r37 = numbers.reduce((sum, number) => sum + number, 0);
+document.getElementById("37").innerHTML = r37;
+
+
+</script>
+
+</body>
+</html>
